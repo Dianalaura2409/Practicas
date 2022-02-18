@@ -1,0 +1,11 @@
+Practica 2. Equipo Determinar los elementos y alcances del siguiente proyecto.
+Y la definicion de los requerimientos.
+Y requerimientos Funcionales Y no funcionanles.
+
+Tengo una compania de autobuses y mi problema es el siguiente
+NO se en donde se encuentran los autobuses, necesito saber donde estan para poder brindarle
+al equipo tecnicoMecanico la visibilidad de los Autobuses.
+AL mismo tiempo quiero que la gente sepa en donde se encuentra su autobus para poder tomarlo a tiempo.
+
+Presupúesto 2500 Dolares.
+
