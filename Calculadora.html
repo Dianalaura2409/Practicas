@@ -1,0 +1,46 @@
+<html lang="es">
+<head>
+     <title>Calculadora</title>
+     <link rel="stylesheet" href="css/cal.css">
+     <h1 class="cabeza">Calculadora</h1>
+</head>
+   
+
+<body>
+    <div class="numeros"><form>
+        <table class="default">
+
+            <tr>
+              <td>Numero1:</td>
+              <td>Numero2:</td>
+              <td>Resultado:</td>
+              
+            </tr>
+            <tr>
+                <td><input id="num1" type="number" /></td>
+                <td><input id="num2" type="number" /></td>
+                <td><p id="resultado" style="color: green;"></p></td>
+              </tr>
+            </table>
+            <table>
+                <tr>
+                  <td><input type="button" value="SUMAR" onclick="operaciones('sumar'); return false;" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="RESTAR" onclick="operaciones('restar'); return false;" /></td>
+                </tr>
+                        <tr>
+                            <td><input type="button" value="MULTIPLICAR" onclick="operaciones('multiplicar'); return false;" /></td>
+                        </tr>
+                                <tr>
+                                    <td> <input type="button" value="DIVIDIR" onclick="operaciones('dividir'); return false;" /></td>
+                                </tr></table>
+     </form></div>
+<script src="js/calculadora.js" ></script>
+
+   
+
+
+
+</body>
+</html>
