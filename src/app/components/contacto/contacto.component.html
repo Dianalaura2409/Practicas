@@ -1,0 +1,31 @@
+<h2>contacto</h2>
+<h3>Por favor dejenos su mensaje</h3>
+<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+    <div>
+         <label for="name">Nombre</label>
+         <input id="name" type="text" formControlName="name">
+    </div>
+
+    <div>
+         <label for="adress">Direccion</label>
+         <input id="adress" type="text" formControlName="adress">
+   </div>
+
+   <div>
+         <label for="asunto">Asunto</label>
+         <input id="asunto" type="text" formControlName="asunto">
+   </div>
+
+   <div>
+          <label for="descripcion">Descripcion</label>
+          <input id="descripcion" type="text" formControlName="descripcion">
+    </div>
+    <button class="button" type="submit">Enviar Informacion</button>
+
+</form>
+<br>
+<div *ngIf="status"></div>
+<h2>Los datos ingresados fueron</h2>
+<!--{{checkoutFrom.get('name')?.value ? checkoutForm.get('name')?.value : 'nada'}}-{{checkoutForm.get('asunto')?.value}}-{{checkoutForm.get('descripcion')?.value}}
+-->
+<h3>El nombre ingresado fue:{{nombre}}</h3>
