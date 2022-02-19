@@ -1,0 +1,23 @@
+Comandos para correr el servidor
+
+mvnw.cmd spring-boot:run
+
+Tarea:
+
+Crear los metodos para obntener por id Crear metodo para buscar por palabra.
+
+Crear un repositorio desde cero, con un modelo de datos que no sea Usuario. ni persona! OSEA CREAR UNA API PROPIA DE USTEDES.
+
+Llamar,guardar,buscar 
+
+Programas que se utiizan:
+1.Spring   https://start.spring.io/
+2.Laragon  Para la base de datos y servidor
+3.Postman  Para hacer los post y get
+4.Visual Studio Code  Para programar  en java
+
+Dependencias que se utilizan en spring
+MySQL Driver SQL
+Spring Data JPA
+Spring Web
+
