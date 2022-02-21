@@ -1,0 +1,23 @@
+.menu{
+    background-color:rgb(255, 255, 255);
+}
+    
+  a{
+    background-color: #f7f6fa;
+    text-decoration: none;
+    padding: 10px 30px 10px 65px;
+    display: inline-block;
+    color: #070707;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    
+  }
+ a:hover{
+    text-decoration: none;
+    display: inline-block;
+    background-color:rgb(172, 206, 211);
+    color: white;
+    text-align: center;
+   
+  }

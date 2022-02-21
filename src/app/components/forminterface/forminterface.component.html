@@ -1,0 +1,40 @@
+<h2>Ingresa tus hobys</h2>
+<div>
+    <h3><form [formGroup]="formulario" (ngSubmit)="GUARDAR()">
+        <div>
+          <label for="nombre">
+            Nombre
+          </label><br>
+          <input id="nombre" type="text" formControlName="nombre">
+        </div>
+      
+        <div><br>
+          <label for="inicio">
+            Inicio de hoby
+          </label><br>
+          <input id="inicio" type="text" formControlName="inicio">
+        </div>
+
+            <div><br>
+            <label for="descripcion">
+                Descripcion
+            </label><br>
+            <input id="descripcion" type="text" formControlName="descripcion">
+          </div>
+      
+        <button class="button" type="submit">Guardar</button>
+      
+      </form></h3>
+
+</div>
+
+<hr>
+<h1>Listado de Hobys</h1>
+<table>
+    
+    <tbody *ngFor="let hoby of hobys">
+        <tr>
+            <td>{{hoby.nombre}}</td>
+       </tr>
+    </tbody>
+</table>

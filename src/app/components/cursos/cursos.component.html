@@ -1,0 +1,52 @@
+<h2>Ingresa los cursos tomados</h2>
+<div>
+    <h3><form [formGroup]="formulario" (ngSubmit)="CHILLSAVE()">
+        <div>
+          <label for="nombre">
+            Nombre
+          </label><br>
+          <input id="nombre" type="text" formControlName="nombre">
+        </div>
+      
+        <div><br>
+          <label for="fecha">
+            Fecha
+          </label><br>
+          <input id="fecha" type="text" formControlName="fecha">
+        </div>
+
+        <div><br>
+            <label for="instructor">
+                Instructor
+            </label><br>
+            <input id="instructor" type="text" formControlName="instructor">
+          </div>
+          <div><br>
+            <label for="descripcion">
+                Descripcion
+            </label><br>
+            <input id="descripcion" type="text" formControlName="descripcion">
+          </div>
+      
+        <button class="button" type="submit">Guardar</button>
+      
+      </form></h3>
+
+</div>
+
+<hr>
+<h1>Listado de cursos</h1>
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Fecha</td>
+        <td>Instructor</td>
+    </tr>
+    <tbody *ngFor="let curso of cursos">
+        <tr>
+            <td>{{curso.nombre}}</td>
+            <td>{{curso.fecha}}</td>
+            <td>{{curso.instructor}}</td>
+        </tr>
+    </tbody>
+</table>

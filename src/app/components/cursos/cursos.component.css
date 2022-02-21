@@ -1,0 +1,27 @@
+h2{
+   text-align: center;
+}
+form{
+    text-align: center;
+}
+
+button{
+    background-color:antiquewhite;
+  
+}
+
+table {
+    border: 1px solid;
+    width: 100%;
+}
+tr {
+    border: 1px solid;
+    height: 30px;
+    text-align: center;
+}
+td{
+    border: 1px solid;
+    height: 30px;
+}
+
+tr:hover {background-color: rgb(224, 207, 201);}
